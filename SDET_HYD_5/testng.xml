@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="www.amazon.com"/>
+<parameter name="UN" value="SUNIL1234"/>
+<parameter name="PWD" value="SUNIL@6969"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.practce.NotPadTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
